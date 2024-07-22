@@ -1,4 +1,14 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+This is a multi-path form demo built with [Next.js](https://nextjs.org/) using:
+
+- server actions and `useFormState`
+- Zod for validation
+- Context API and local storage for persisting form data
+
+> For starter code, check out the [starter-code](https://github.com/jamesqquick/nextjs-multi-page-form-nextjs/tree/starter-code) branch.
+
+To see the final demo in action, check out the [Deals for Devs platform](https://www.dealsfordevs.com/).
+
+\*Special shoutout to [Chris Nowicki](https://x.com/iamwix) for helping build the Deals for Devs form!
 
 ## Getting Started
 
