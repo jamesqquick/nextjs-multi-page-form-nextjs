@@ -6,6 +6,8 @@ This is a multi-path form demo built with [Next.js](https://nextjs.org/) using:
 
 > For starter code, check out the [starter-code](https://github.com/jamesqquick/nextjs-multi-page-form-nextjs/tree/starter-code) branch.
 
+![CleanShot 2024-07-22 at 15 17 13](https://github.com/user-attachments/assets/8bf50943-5057-4250-a2fb-deee88289ab0)
+
 To see the final demo in action, check out the [Deals for Devs platform](https://www.dealsfordevs.com/).
 
 \*Special shoutout to [Chris Nowicki](https://x.com/iamwix) for helping build the Deals for Devs form!
