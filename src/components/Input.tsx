@@ -1,7 +1,5 @@
 'use client';
 
-import { useAddDealContext } from '@/contexts/addDealContext';
-
 interface InputProps {
   label: string;
   id: string;
@@ -26,11 +24,6 @@ export default function Input({
   description,
   errorMsg,
 }: InputProps) {
-  const { updateNewDealDetails, newDealData } = useAddDealContext();
-  const handleInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {
-    updateNewDealDetails({ [e.target.name]: e.target.value });
-  };
-
   return (
     <div>
       <label className="block text-lg" htmlFor={id}>
@@ -53,8 +46,6 @@ export default function Input({
         minLength={minLength}
         min={min}
         max={max}
-        onChange={handleInputChange}
-        defaultValue={newDealData[id]}
       />
       <div className="min-h-8 mt-1">
         {errorMsg && (

@@ -1,11 +1,6 @@
 'use client';
-import Icon from '@/components/Icon';
-import { useRouter } from 'next/navigation';
 import clsx from 'clsx';
 import Link from 'next/link';
-import { usePathname } from 'next/navigation';
-import path from 'path';
-import { useEffect, useState } from 'react';
 import { AddDealRoutes } from '@/types';
 
 const steps = [
@@ -28,19 +23,13 @@ const steps = [
 ];
 
 export default function StepNavigation() {
-  const pathname = usePathname();
-  const currentPath = path.basename(pathname);
-  const [currentStep, setCurrentStep] = useState(1);
-
-  useEffect(() => {
-    setCurrentStep(steps.findIndex((step) => step.route === currentPath));
-  }, [currentPath]);
+  const currentPath = '';
 
   return (
     <div className="mb-12 mt-4 lg:mb-0 min-w-60">
       {/* back button */}
       <Link
-        href={steps[currentStep - 1]?.link || steps[0].link}
+        href={'/add'}
         className="mb-4 flex items-center gap-2 text-xl disabled:text-white/50 lg:mb-12 lg:gap-5"
       >
         Back
