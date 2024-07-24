@@ -6,7 +6,9 @@ This is a multi-path form demo built with [Next.js](https://nextjs.org/) using:
 
 > For starter code, check out the [starter-code](https://github.com/jamesqquick/nextjs-multi-page-form-nextjs/tree/starter-code) branch.
 
-![CleanShot 2024-07-22 at 15 17 13](https://github.com/user-attachments/assets/8bf50943-5057-4250-a2fb-deee88289ab0)
+Watch the full tutorial 👇
+
+[![Nextjs Multipage Form](https://github.com/user-attachments/assets/b3a6ba1d-a7a2-4078-a015-bea685d85078)](https://youtu.be/wY8cRJJU6RQ)
 
 To see the final demo in action, check out the [Deals for Devs platform](https://www.dealsfordevs.com/).
 
